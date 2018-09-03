@@ -37,17 +37,33 @@ sidebar:
       items:
         - item: Jeux de rôle et de société
           link:
-
-        - item: Musique
+        - item: Musique (chant, guitare)
           link:
-
         - item: Brassage amateur
           link:
+        - item: Cuisine
+          link:
+
+    tools:
+        title: Outils
+        items:
+          - item: Visual Studio Code
+            link: https://code.visualstudio.com/
+          - item: git
+            link:
+          - item: i3
+            link: https://i3wm.org/
+          - item: tmux
+            link:
+          - item: Clavier Bépo TypeMatrix
+            link: https://bepo.fr/wiki/TypeMatrix
+          - item: Souris verticale CSL
+            link:
 
 career-profile:
     title: Profil
     summary: |
-      En tant que développeur Full Stack chez Ecréall, j'interviens tant sur le back-end et le front-end que la partie devops des applications de nos clients. Je prends part aux décisions techniques et au grooming. J'aime aussi avoir un rôle de mentor.
+      En tant que développeur Full Stack, j'interviens tant sur le back-end et le front-end des applications de nos clients. Je prends part aux décisions techniques, aux choix d'architecture et aux séances de grooming. J'accompagne les développeurs juniors via du pair programming, de la revue de code ou des échanges plus informels.
 
       J'accorde une grande importance à la qualité et à la maintenabilité du code produit par l'équipe et je mets en place les outils et méthodes qui permettent d'atteindre cet objectif.
 
@@ -97,13 +113,13 @@ experiences:
         time: 2006 - 2010
         company: Laboratoire d'Informatique de Paris Nord
         details: |
-          Ces travaux ont abouti à une thèse de doctorat sur l'acquisition automatique de schémas de sous-catégorisation des verbes en français.
+          Mes travaux ont abouti à une thèse de doctorat sur l'acquisition automatique de schémas de sous-catégorisation des verbes en français.
 
       - role: Enseignant en informatique
         time: 2006 - 2010
         company: Université Paris 13
         details: |
-          Programmation impérative (C), programmation objet (Java), développement web, administration de parc informatique, text mining.
+          Programmation impérative, programmation objet, développement web, administration système, text mining.
 
 events:
     title: Événements
@@ -112,8 +128,8 @@ events:
       - PyConFr (2016)
       - EuroPython (2012, 2014, 2015)
       - Plone Open Garden (2013, 2015)
-      - Plone Conference (2012)
       - Agile tour Lille (2013, 2014)
+      - Plone Conference (2012)
 
 # projects:
 #     title: Projects
@@ -170,13 +186,13 @@ skills:
       - name: React, Redux
         level: 90%
 
-      - name: Javascript (ES6, ES7)
+      - name: Javascript (ES8, flow)
         level: 80%
 
       - name: Python (Pyramid, Plone)
         level: 90%
 
-      - name: HTML5, CSS
+      - name: HTML5, CSS, SASS
         level: 80%
 
       - name: GraphQL
@@ -186,7 +202,7 @@ skills:
         level: 70%
 
       - name: MySQL, PostgreSQL
-        level: 80%
+        level: 70%
 
       - name: Docker
         level: 60%
