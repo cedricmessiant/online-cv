@@ -1,0 +1,20 @@
+{% assign events = site.data.data.events %}
+{% if events %}
+<section class="section events-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-calendar-alt fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ events.title }}
+    </h2>
+
+  <ul class="events-list">
+    {% for event in events.items %}
+      <li>{{ event }}</li>
+    {% endfor %}
+  </ul>
+
+
+</section><!--//section-->
+{% endif %}

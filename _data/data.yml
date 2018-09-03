@@ -3,196 +3,192 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Cédric Messiant
+    tagline: Développeur Full Stack
+    #avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: cedric.messiant@gmail.com
+    phone: 06.75.40.02.33
+    website: #do not add http://
+    linkedin: cedricmessiant
+    github: cedricmessiant
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@cedricmessiant'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
-        level: Native
+      title: Langues
+      items:
+        - idiom: Français
+          level: langue maternelle
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+        - idiom: Anglais
+          level: professionnel
         
     interests:
-      - item: Climbing
-        link:
+      title: Centres d'intérêt
+      items:
+        - item: Jeux de rôle et de société
+          link:
 
-      - item: Snowboarding
-        link:
+        - item: Musique
+          link:
 
-      - item: Cooking
-        link:
+        - item: Brassage amateur
+          link:
 
 career-profile:
-    title: Career Profile
+    title: Profil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      En tant que développeur Full Stack chez Ecréall, j'interviens tant sur le back-end et le front-end que la partie devops des applications de nos clients. Je prends part aux décisions techniques et au grooming. J'aime aussi avoir un rôle de mentor.
 
-      Second paragraph if required.
+      J'accorde une grande importance à la qualité et à la maintenabilité du code produit par l'équipe et je mets en place les outils et méthodes qui permettent d'atteindre cet objectif.
+
+      Je suis également force de proposition et de conseil sur les aspects organisationnels, fonctionnels et ergonomiques des projets auxquels je participe.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    title: Formation
+    items:
+      - degree: Doctorat en informatique
+        university: Université Paris 13
+        time: 2010
+        details: |
+          Traitement automatique des langues (NLP)
 
-          - Bullet point
-          - Bullet point 
+      - degree: Maîtrise d'Administration Publique
+        university: Université de Valenciennes
+        time: 2006
+        details: |
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      - degree: Master de Sciences Cognitives
+        university: Université de Lille 3
+        time: 2005
 
-          - Bullet point
-          - Bullet point 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+    title: Expérience professionnelle
+    items:
+      - role: Développeur Full Stack senior, associé
+        time: 2012 - aujourd'hui
+        company: Ecréall, Villeneuve d'Ascq
+        details: |
+          Spécification, conception, développement et intégration de portails collaboratifs. Administration de serveurs GNU/Linux.
+          Je suis notamment intervenu pour les clients suivants :
+            - **Bluenove** : Outil d’open innovation et d’intelligence collective. Le code est disponible [sur github](https://github.com/assembl/assembl/)
+            - **Comité Régional du Tourisme** : Plate-forme l'Atelier du tourisme en Nord-Pas-de-Calais. Gestion des offres touristiques, gestion électronique de documents, photothèque, gestion des contacts et des organisations, partage à des communautés d'intérêt. 
+            - **IMIO (Intercommunale de Mutualisation Informatique et Organisationnelle)** : Gestion électronique de documents, gestion de courrier, gestion des contacts pour les communes belges.
+            - **Midi-Pyrénées Innovation** : espaces de travail collaboratif, gestion des contacts.
+            - **Parlement Fédération Wallonie Bruxelles** : Gestion électronique de documents, gestion de courriers, gestion des contacts et des organisations.
 
-          - Bullet point
-          - Bullet point 
+      - role: Ingénieur d'études et de développement
+        time: 2010 - 2012
+        company: Prodline, Gentilly
+        details: |
+          Conception et réalisation en Python et Django d’un outil d’automatisation des déploiements d'applications pour la SNCF. 
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+      - role: Chercheur en linguistique informatique
+        time: 2006 - 2010
+        company: Laboratoire d'Informatique de Paris Nord
+        details: |
+          Ces travaux ont abouti à une thèse de doctorat sur l'acquisition automatique de schémas de sous-catégorisation des verbes en français.
 
-          - Bullet point
-          - Bullet point
+      - role: Enseignant en informatique
+        time: 2006 - 2010
+        company: Université Paris 13
+        details: |
+          Programmation impérative (C), programmation objet (Java), développement web, administration de parc informatique, text mining.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+events:
+    title: Événements
+    items:
+      - React Europe (2016, 2017, 2018)
+      - PyConFr (2016)
+      - EuroPython (2012, 2014, 2015)
+      - Plone Open Garden (2013, 2015)
+      - Plone Conference (2012)
+      - Agile tour Lille (2013, 2014)
 
-          - Bullet point
-          - Bullet point
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences clés
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: React, Redux
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript (ES6, ES7)
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Python (Pyramid, Plone)
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: HTML5, CSS
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: GraphQL
+        level: 70%
 
-      - name: Sketch & Photoshop
+      - name: Elasticsearch
+        level: 70%
+
+      - name: MySQL, PostgreSQL
+        level: 80%
+
+      - name: Docker
         level: 60%
 
 footer: >
