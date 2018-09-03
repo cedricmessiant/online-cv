@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Cédric Messiant
     tagline: Développeur Full Stack
-    #avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: cedric.messiant@gmail.com
@@ -49,8 +49,6 @@ sidebar:
         items:
           - item: Visual Studio Code
             link: https://code.visualstudio.com/
-          - item: git
-            link:
           - item: i3
             link: https://i3wm.org/
           - item: tmux
@@ -63,7 +61,7 @@ sidebar:
 career-profile:
     title: Profil
     summary: |
-      En tant que développeur Full Stack, j'interviens tant sur le back-end et le front-end des applications de nos clients. Je prends part aux décisions techniques, aux choix d'architecture et aux séances de grooming. J'accompagne les développeurs juniors via du pair programming, de la revue de code ou des échanges plus informels.
+      En tant que développeur Full Stack, j'interviens tant sur le back-end que le front-end des applications de nos clients. Je prends part aux décisions techniques, aux choix d'architecture et aux séances de grooming. J'accompagne les développeurs juniors via du pair programming, de la revue de code ou des échanges plus informels.
 
       J'accorde une grande importance à la qualité et à la maintenabilité du code produit par l'équipe et je mets en place les outils et méthodes qui permettent d'atteindre cet objectif.
 
