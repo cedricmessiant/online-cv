@@ -1,133 +1,138 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Cédric Messiant
-    tagline: Développeur Full Stack
-    avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Cédric Messiant
+  tagline: Développeur Full Stack
+  avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: cedric.messiant@gmail.com
-    phone: 06.75.40.02.33
-    website: #do not add http://
-    linkedin: cedricmessiant
-    github: cedricmessiant
-    gitlab:
-    bitbucket:
-    twitter: '@cedricmessiant'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+  # Sidebar links
+  email: cedric.messiant@gmail.com
+  phone: 06.75.40.02.33
+  website: #do not add http://
+  linkedin: cedricmessiant
+  github: cedricmessiant
+  gitlab:
+  bitbucket:
+  twitter: '@cedricmessiant'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
 
-    languages:
-      title: Langues
-      items:
-        - idiom: Français
-          level: langue maternelle
+  languages:
+    title: Langues
+    items:
+      - idiom: Français
+        level: langue maternelle
 
-        - idiom: Anglais
-          level: professionnel
-        
-    interests:
-      title: Centres d'intérêt
-      items:
-        - item: Jeux de rôle et de société
-          link:
-        - item: Musique (chant, guitare)
-          link:
-        - item: Brassage amateur
-          link:
-        - item: Cuisine
-          link:
+      - idiom: Anglais
+        level: professionnel
 
-    tools:
-        title: Outils
-        items:
-          - item: Visual Studio Code
-            link: https://code.visualstudio.com/
-          - item: i3
-            link: https://i3wm.org/
-          - item: tmux
-            link:
-          - item: Clavier Bépo TypeMatrix
-            link: https://bepo.fr/wiki/TypeMatrix
-          - item: Souris verticale CSL
-            link:
+  interests:
+    title: Centres d'intérêt
+    items:
+      - item: Jeux de rôle et de société
+        link:
+      - item: Brassage amateur
+        link:
+      - item: Musique (chant, guitare)
+        link:
+      - item: Cuisine
+        link:
+
+  # tools:
+  #   title: Outils
+  #   items:
+  #     - item: Visual Studio Code
+  #       link: https://code.visualstudio.com/
+  #     - item: i3
+  #       link: https://i3wm.org/
+  #     - item: tmux
+  #       link:
+  #     - item: Clavier Bépo TypeMatrix
+  #       link: https://bepo.fr/wiki/TypeMatrix
+  #     - item: Souris verticale CSL
+  #       link:
 
 career-profile:
-    title: Profil
-    summary: |
-      En tant que développeur Full Stack, j'interviens tant sur le back-end que le front-end des applications de nos clients. Je prends part aux décisions techniques, aux choix d'architecture et aux séances de grooming. J'accompagne les développeurs juniors via du pair programming, de la revue de code ou des échanges plus informels.
+  title: Profil
+  summary: |
+    En tant que développeur Full Stack, j'interviens tant sur le back-end que le front-end des applications. Je prends part aux décisions techniques, aux choix d'architecture et aux séances de grooming. J'accompagne les développeurs juniors via du pair programming, de la revue de code ou des échanges plus informels.
 
-      J'accorde une grande importance à la qualité et à la maintenabilité du code produit par l'équipe et je mets en place les outils et méthodes qui permettent d'atteindre cet objectif.
+    J'accorde une grande importance à la qualité et à la maintenabilité du code produit par l'équipe et je mets en place les outils et méthodes qui permettent d'atteindre cet objectif.
 
-      Je suis également force de proposition et de conseil sur les aspects organisationnels, fonctionnels et ergonomiques des projets auxquels je participe.
+    Je suis également force de proposition et de conseil sur les aspects organisationnels, fonctionnels et ergonomiques des projets auxquels je participe.
 
 education:
-    title: Formation
-    items:
-      - degree: Doctorat en informatique
-        university: Université Paris 13
-        time: 2010
-        details: |
-          Traitement automatique des langues (NLP)
+  title: Formation
+  items:
+    - degree: Doctorat en informatique
+      university: Université Paris 13
+      time: 2010
+      details: |
+        Traitement automatique des langues (NLP)
 
-      - degree: Maîtrise d'Administration Publique
-        university: Université de Valenciennes
-        time: 2006
-        details: |
+    - degree: Maîtrise d'Administration Publique
+      university: Université de Valenciennes
+      time: 2006
+      details: |
 
-      - degree: Master de Sciences Cognitives
-        university: Université de Lille 3
-        time: 2005
-
+    - degree: Master de Sciences Cognitives
+      university: Université de Lille 3
+      time: 2005
 
 experiences:
-    title: Expérience professionnelle
-    items:
-      - role: Développeur Full Stack senior, associé
-        time: 2012 - aujourd'hui
-        company: Ecréall, Villeneuve d'Ascq
-        details: |
-          Spécification, conception, développement et intégration de portails collaboratifs. Administration de serveurs GNU/Linux.
-          Je suis notamment intervenu pour les clients suivants :
-            - **Bluenove** : Outil d’open innovation et d’intelligence collective. Le code est disponible [sur github](https://github.com/assembl/assembl/)
-            - **Comité Régional du Tourisme** : Plate-forme l'Atelier du tourisme en Nord-Pas-de-Calais. Gestion des offres touristiques, gestion électronique de documents, photothèque, gestion des contacts et des organisations, partage à des communautés d'intérêt. 
-            - **IMIO (Intercommunale de Mutualisation Informatique et Organisationnelle)** : Gestion électronique de documents, gestion de courrier, gestion des contacts pour les communes belges.
-            - **Midi-Pyrénées Innovation** : espaces de travail collaboratif, gestion des contacts.
-            - **Parlement Fédération Wallonie Bruxelles** : Gestion électronique de documents, gestion de courriers, gestion des contacts et des organisations.
+  title: Expérience professionnelle
+  items:
+    - role: Développeur Front-end senior
+      time: janvier 2019 - aujourd'hui
+      company: Cozy Cloud, Paris (télétravail)
+      details: |
+        Développement d'applications (web et mobile) d'un cloud personnel \: "Drive", galerie Photos, gestionnaire de contacts.
 
-      - role: Ingénieur d'études et de développement
-        time: 2010 - 2012
-        company: Prodline, Gentilly
-        details: |
-          Conception et réalisation en Python et Django d’un outil d’automatisation des déploiements d'applications pour la SNCF. 
+    - role: Développeur Full Stack senior, associé
+      time: 2012 - 2018
+      company: Ecréall, Villeneuve d'Ascq
+      details: |
+        Spécification, conception, développement et intégration de portails collaboratifs. Administration de serveurs GNU/Linux.
+        Je suis notamment intervenu pour les clients suivants :
+          - **Bluenove** : Outil d’open innovation et d’intelligence collective. Le code est disponible [sur github](https://github.com/assembl/assembl/)
+          - **Comité Régional du Tourisme** : Plate-forme l'Atelier du tourisme en Nord-Pas-de-Calais. Gestion des offres touristiques, gestion électronique de documents, photothèque, gestion des contacts et des organisations, partage à des communautés d'intérêt.
+          - **IMIO (Intercommunale de Mutualisation Informatique et Organisationnelle)** : Gestion électronique de documents, gestion de courrier, gestion des contacts pour les communes belges.
+          - **Midi-Pyrénées Innovation** : espaces de travail collaboratif, gestion des contacts.
+          - **Parlement Fédération Wallonie Bruxelles** : Gestion électronique de documents, gestion de courriers, gestion des contacts et des organisations.
 
-      - role: Chercheur en linguistique informatique
-        time: 2006 - 2010
-        company: Laboratoire d'Informatique de Paris Nord
-        details: |
-          Mes travaux ont abouti à une thèse de doctorat sur l'acquisition automatique de schémas de sous-catégorisation des verbes en français.
+    - role: Ingénieur d'études et de développement
+      time: 2010 - 2012
+      company: Prodline, Gentilly
+      details: |
+        Conception et réalisation en Python et Django d’un outil d’automatisation des déploiements d'applications pour la SNCF.
 
-      - role: Enseignant en informatique
-        time: 2006 - 2010
-        company: Université Paris 13
-        details: |
-          Programmation impérative, programmation objet, développement web, administration système, text mining.
+    - role: Chercheur en linguistique informatique
+      time: 2006 - 2010
+      company: Laboratoire d'Informatique de Paris Nord
+      details: |
+        Mes travaux ont abouti à une thèse de doctorat sur l'acquisition automatique de schémas de sous-catégorisation des verbes en français.
+
+    - role: Enseignant en informatique
+      time: 2006 - 2010
+      company: Université Paris 13
+      details: |
+        Programmation impérative, programmation objet, développement web, administration système, text mining.
 
 events:
-    title: Événements
-    items:
-      - React Europe (2016, 2017, 2018)
-      - PyConFr (2016)
-      - EuroPython (2012, 2014, 2015)
-      - Plone Open Garden (2013, 2015)
-      - Agile tour Lille (2013, 2014)
-      - Plone Conference (2012)
+  title: Événements
+  items:
+    - React Europe (2016, 2017, 2018)
+    - PyConFr (2016)
+    - EuroPython (2012, 2014, 2015)
+    - Plone Open Garden (2013, 2015)
+    - Agile tour Lille (2013, 2014)
+    - Plone Conference (2012)
 
 # projects:
 #     title: Projects
@@ -178,32 +183,32 @@ events:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Compétences clés
+  title: Compétences clés
 
-    toolset:
-      - name: React, Redux
-        level: 90%
+  toolset:
+    - name: Javascript (React, Redux, Flow)
+      level: 90%
 
-      - name: Javascript (ES8, flow)
-        level: 80%
+    - name: Python (Pyramid, Plone, Flask)
+      level: 90%
 
-      - name: Python (Pyramid, Plone)
-        level: 90%
+    - name: HTML5, CSS, SASS
+      level: 70%
 
-      - name: HTML5, CSS, SASS
-        level: 80%
+    - name: GraphQL
+      level: 70%
 
-      - name: GraphQL
-        level: 70%
+    - name: Elasticsearch
+      level: 70%
 
-      - name: Elasticsearch
-        level: 70%
+    - name: MySQL, PostgreSQL
+      level: 70%
 
-      - name: MySQL, PostgreSQL
-        level: 70%
+    - name: CouchDB
+      level: 40%
 
-      - name: Docker
-        level: 60%
+    - name: Docker
+      level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> - Jekyll theme by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">sharu725</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> - Jekyll theme by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">sharu725</a>
